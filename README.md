@@ -113,9 +113,21 @@ I’m using this space to track my progress, take notes, and commit code example
 
 </details>
 
-### 📈 Learning Progress
+## 📊 My TypeScript Learning Progress
 
 <p align="center">
-  <img src="https://progress-bar.dev/45/?title=Learning%20TypeScript&width=400&color=blue&suffix=%25" alt="Learning Progress Bar">
+  <img src="https://progress-bar.dev/45/?title=Learning%20TypeScript&width=400&color=blue&suffix=%25" alt="Learning Progress">
 </p>
+
+| Topic | Progress |
+|--------|-----------|
+| 🧩 Fundamentals | 🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜ (50%) |
+| ⚙️ Functions | 🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜ (30%) |
+| 🧱 Classes & Objects | 🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜ (20%) |
+| 🌀 Advanced Topics | 🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜ (10%) |
+| 🧩 TypeScript in Practice | ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ (0%) |
+
+![Progress](https://img.shields.io/badge/Progress-45%25-blue)
+![Stage](https://img.shields.io/badge/Current-Fundamentals-success)
+![Next](https://img.shields.io/badge/Next-Functions-yellow)
 
