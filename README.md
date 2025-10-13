@@ -32,9 +32,9 @@ It’s meant to help me (and others) understand how TypeScript improves JavaScri
 <details>
 <summary>🧩 <strong>Fundamentals</strong></summary>
 
-- [ ] What is TypeScript and why use it?
-- [ ] Installing and configuring (`tsc`, `tsconfig.json`)
-- [ ] Basic types — `string`, `number`, `boolean`, `any`, `unknown`, `void`, `never`
+- [x] What is TypeScript and why use it?
+- [x] Installing and configuring (`tsc`, `tsconfig.json`)
+- [x] Basic types — `string`, `number`, `boolean`, `any`, `unknown`, `void`, `never`
 - [ ] Arrays and Tuples
 - [ ] Enums
 - [ ] Type inference
