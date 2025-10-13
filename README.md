@@ -113,9 +113,15 @@ I’m using this space to track my progress, take notes, and commit code example
 
 </details>
 
-## 📊 My TypeScript Learning Progress
+### 🎯 Progress Tracker
 
-![Progress](https://img.shields.io/badge/Progress-45%25-blue)
-![Status](https://img.shields.io/badge/Stage-Fundamentals-success)
-![Next](https://img.shields.io/badge/Next-Functions-yellow)
+| Topic | Progress |
+|--------|-----------|
+| 🧩 Fundamentals | 🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜ (10%) |
+| ⚙️ Functions | ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ (0%) |
+| 🧱 Classes & Objects | ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ (0%) |
+| 🌀 Advanced Topics | ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜(0%) |
+| 🧩 TypeScript in Practice | ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ (0%) |
+
+
 
