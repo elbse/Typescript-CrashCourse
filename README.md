@@ -111,25 +111,11 @@ I’m using this space to track my progress, take notes, and commit code example
 - [ ] Learn about ESLint + Prettier integration
 - [ ] Explore TypeScript 5+ new features
 
-## 🧭 Progress Tracker
-
-![Progress](https://progress-bar.dev/40/?title=Learning%20TypeScript&width=400)
-
-![TypeScript Progress Chart](https://quickchart.io/chart?c={
-  type:'doughnut',
-  data:{
-    labels:['Basics','Functions','Interfaces','Generics','React','Node'],
-    datasets:[{
-      data:[100,70,50,30,10,20],
-      backgroundColor:['#3178C6','#61DBFB','#FFD700','#00C853','#FF6F61','#8E44AD']
-    }]
-  },
-  options:{
-    plugins:{
-      title:{display:true,text:'My TypeScript Learning Progress'}
-    }
-  }
-})
-
-
 </details>
+
+### 📈 Learning Progress
+
+<p align="center">
+  <img src="https://progress-bar.dev/45/?title=Learning%20TypeScript&width=400&color=blue&suffix=%25" alt="Learning Progress Bar">
+</p>
+
