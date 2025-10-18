@@ -43,3 +43,8 @@ let laptop = {
 laptop.ram = 32
 laptop.isTouchscreen = true
 // laptop.brand = 123 // Error: Type 'number' is not assignable to type 'string'
+
+const subtractNumbers = (a: number, b:number): number => {
+    return a - b
+}
+
