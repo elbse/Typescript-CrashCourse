@@ -21,7 +21,7 @@ I’m using this space to track my progress, take notes, and commit code example
 
 - **TypeScript**
 - **Node.js**
-- **npm** or **yarn**
+- **npm** 
 - **VS Code** with TypeScript extensions 
 
 ---
@@ -40,7 +40,7 @@ I’m using this space to track my progress, take notes, and commit code example
 - [x] What is TypeScript and why use it?
 - [x] Installing and configuring (`tsc`, `tsconfig.json`)
 - [x] Basic types — `string`, `number`, `boolean`, `any`, `unknown`, `void`, `never`
-- [ ] Arrays and Tuples
+- [x] Arrays and Tuples
 - [ ] Enums
 - [ ] Type inference
 - [ ] Type aliases and interfaces
