@@ -117,7 +117,7 @@ I’m using this space to track my progress, take notes, and commit code example
 
 | Topic | Progress |
 |--------|-----------|
-| 🧩 Fundamentals | 🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜ (10%) |
+| 🧩 Fundamentals | 🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜ (20%) |
 | ⚙️ Functions | ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ (0%) |
 | 🧱 Classes & Objects | ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ (0%) |
 | 🌀 Advanced Topics | ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜(0%) |
