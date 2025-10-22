@@ -118,7 +118,7 @@ I’m using this space to track my progress, take notes, and commit code example
 | Topic | Progress |
 |--------|-----------|
 | 🧩 Fundamentals | 🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜ (20%) |
-| ⚙️ Functions | ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ (0%) |
+| ⚙️ Functions | 🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜ (10%) |
 | 🧱 Classes & Objects | ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ (0%) |
 | 🌀 Advanced Topics | ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜(0%) |
 | 🧩 TypeScript in Practice | ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ (0%) |
