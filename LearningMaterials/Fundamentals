@@ -1,0 +1,92 @@
+🧠 What is TypeScript?
+
+TypeScript (TS) is a typed superset of JavaScript that compiles to plain JavaScript.
+
+Adds static type checking, interfaces, enums, and advanced typing features.
+Helps catch errors at compile time rather than runtime.
+Improves code maintainability, readability, and developer productivity.
+
+🔤 Basic Types
+Type	    Example	                                                                              Description
+string	    let name: string = "Alice";	                                                          Text data
+number	    let age: number = 30;	                                                              Numbers (int, float, etc.)
+boolean	    let isActive: boolean = true;	                                                      True/false values
+any	        let random: any = 5; random = "hello";	                                              Disables type checking (use rarely)
+unknown	    let value: unknown = "test";	                                                      Similar to any, but safer
+void	    function log(): void { console.log("ok"); }	                                          For functions that return nothing
+never	    function fail(msg: string): never { throw new Error(msg); }	                          For functions that never return
+
+🧮Arrays and Tuples
+
+Arrays:
+let numbers: number[] = [1, 2, 3];
+let fruits: Array<string> = ["apple", "banana"];
+
+Tuples:
+let user: [string, number] = ["Alice", 25];
+Fixed length and known types in order.
+
+🎖️Enums
+
+Enums define a set of named constants.
+enum Direction {
+  Up,
+  Down,
+  Left,
+  Right
+}
+
+let move: Direction = Direction.Up;
+
+
+By default, numeric values start at 0.
+You can assign custom values:
+
+enum Status {
+  Success = 200,
+  NotFound = 404,
+  ServerError = 500
+}
+
+
+You can also use string enums:
+enum Role {
+  Admin = "ADMIN",
+  User = "USER"
+}
+
+🧩Type Inference
+
+TypeScript automatically infers types when possible.
+
+let message = "Hello"; // inferred as string
+let count = 10;        // inferred as number
+
+
+Explicit typing is useful when inference isn’t enough:
+
+let id: number = 123;
+
+🧱 Type Aliases and Interfaces
+Type Alias:
+type UserID = string | number;
+
+type User = {
+  id: UserID;
+  name: string;
+  active: boolean;
+};
+
+Interface:
+interface User {
+  id: number;
+  name: string;
+  active: boolean;
+}
+
+interface Admin extends User {
+  role: string;
+}
+
+Interfaces are extendable and preferred for object structures.
+Type aliases are more flexible (can represent unions, intersections, etc.).
