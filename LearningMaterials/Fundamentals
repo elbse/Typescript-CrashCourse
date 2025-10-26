@@ -68,6 +68,7 @@ Explicit typing is useful when inference isn’t enough:
 let id: number = 123;
 
 🧱 Type Aliases and Interfaces
+
 Type Alias:
 type UserID = string | number;
 
@@ -90,3 +91,47 @@ interface Admin extends User {
 
 Interfaces are extendable and preferred for object structures.
 Type aliases are more flexible (can represent unions, intersections, etc.).
+
+🔗 Union and Intersection Types
+
+Union (|):
+
+Allows a variable to hold multiple types.
+
+let input: string | number;
+input = "Hello";
+input = 42;
+
+Intersection (&):
+
+Combines multiple types into one.
+
+type Person = { name: string };
+type Contact = { email: string };
+type Employee = Person & Contact;
+
+🔍 Type Assertions and Narrowing
+
+Type Assertion:
+
+Tell TypeScript what the type should be.
+
+let input: unknown = "hello";
+let len = (input as string).length;
+
+
+or:
+
+let len = (<string>input).length;
+
+Type Narrowing:
+
+Use runtime checks to narrow the type.
+
+function printId(id: string | number) {
+  if (typeof id === "string") {
+    console.log(id.toUpperCase());
+  } else {
+    console.log(id.toFixed(2));
+  }
+}
